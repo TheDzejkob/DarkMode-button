@@ -2,6 +2,9 @@
   text-align: center;
 }
 
+
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -28,4 +31,26 @@
 
 .small {
   font-size: 0.75rem;
+}
+
+#check {
+  width: 20px;
+  height: 20px;
+
+}
+.dark-theme {
+  background-color: #1a1a1a; /* Dark background color */
+  color: #ffffff; /* Light text color */
+  /* Add more styles for dark mode here */
+}
+body {
+  /* Light mode styles */
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.dark-mode {
+  /* Dark mode styles */
+  background-color: #333;
+  color: #f0f0f0;
 }
